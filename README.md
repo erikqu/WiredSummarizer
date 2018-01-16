@@ -8,4 +8,4 @@ Dependencies: BeautifulSoup4, TextRank (slightly modified version including Edit
 
 Examples: 
 
-![](https://github.com/erikqu/WiredSummarizer/tree/master/Examples/ex2.png?raw=true)
+![](/Examples/ex2.png?raw=true)
