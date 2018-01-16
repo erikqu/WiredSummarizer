@@ -7,4 +7,4 @@ Python 3.6
 Dependencies: BeautifulSoup4, TextRank (slightly modified version including EditDistance)
 
 Examples: 
-![alt text](Examples/ex2.png "Test")
+![alt text](Examples/ex2.PNG "Test")
