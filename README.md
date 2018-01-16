@@ -6,5 +6,10 @@ Created using TextRank
 Python 3.6
 Dependencies: BeautifulSoup4, TextRank (slightly modified version including EditDistance)
 
-Examples: 
-![alt text](Examples/ex2.PNG "Test")
+Screenshots:
+
+
+![alt text](Examples/ex2.PNG "Summarized Version of 'How Dirt Could Save Us From Antibiotic-Resistant Superbugs' by Peter Smith from WIRED")
+
+
+![alt text](Examples/ex1.PNG "Summarized Version of 'Texas Instruments' New Headlights Dazzle With a Million Pixels' by Eric Adams from WIRED")
