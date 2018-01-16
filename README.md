@@ -5,3 +5,7 @@ Created using TextRank
 
 Python 3.6
 Dependencies: BeautifulSoup4, TextRank (slightly modified version including EditDistance)
+
+Examples: 
+
+!(https://raw.githubusercontent.com/erikqu/WiredSummarizer/Master/Examples/ex2.png)
