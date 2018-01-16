@@ -7,5 +7,4 @@ Python 3.6
 Dependencies: BeautifulSoup4, TextRank (slightly modified version including EditDistance)
 
 Examples: 
-
-![](/Examples/ex2.png?raw=true)
+![alt text](Examples/ex2.png "Summary of HOW 'DIRT COULD SAVE HUMANITY FROM AN INFECTIOUS APOCALYPSE' by Peter Smith from Wired.com")
