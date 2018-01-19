@@ -9,6 +9,7 @@ Dependencies: BeautifulSoup4, TextRank (slightly modified version including Edit
 **Screenshots:**
 
 
+
 ###### Summarized Version of 'How Dirt Could Save Us From Antibiotic-Resistant Superbugs' by Peter Smith from WIRED
 ![alt text](Examples/ex2.PNG "Summary")
 
