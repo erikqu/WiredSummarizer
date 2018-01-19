@@ -87,26 +87,34 @@ def get_most_popular():
 		text = remove_trail(text,'Author')
 		link_names.append(text)
 		print('[',(x+1),']', text)
-	selection = int(input("\nSelect article by # >"))
+	selection = input("\nSelect article by # >")
 	return selection,link_names
 
-
 def main():
+	print("\nWelcome to the WIRED summarizer!\nChoose an article to be summarized (or enter h for help):")
 	choice,names = get_most_popular()
-	while(choice in range(1,6)):
+	while(True):
+		if choice =='h':
+			print("1-5 to summarize an article\no to open the article\nq to quit")
+			choice = input("Select article by # >")
+			continue
+		elif choice == 'q':
+			print("Quitting..")
+			exit()
+		elif choice == 'o':
+			special = input("Enter the article #>")
+			#finish me
+		elif len(choice) >1:
+			print("Not a valid command! Enter q to quit!")
+			continue
+		choice = int(choice)
 		choice -=1
 		urlname = setpage + link_list[choice]
 		create_summary(urlname)
 		print("\n")
 		for x in range(len(names)):
 			print('[',(x+1),']',names[x])
-		choice = int(input("Select article by # >"))
-	if choice == "h":
-		print("""
-			Enter 'q' to quit
-			Enter 1-5 for one of the choices above
-			""")
-
-#remove related articles, end up in summary!!
+		choice = input("Select article by # >")
+		
 main()
 
