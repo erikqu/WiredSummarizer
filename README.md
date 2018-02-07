@@ -3,7 +3,7 @@ Little Python program for fetching and summarizing the most popular articles fro
 
 Created using TextRank
 
-###### Note: WIRED subscriptions will impact this program's ability to function well!
+__Note: WIRED subscriptions will impact this program's ability to function well!__
 
 Python 3.6
 Dependencies: BeautifulSoup4, TextRank (slightly modified version including EditDistance)
