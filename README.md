@@ -1,7 +1,7 @@
 # WIREDSummarizer
 Little Python program for fetching and summarizing the most popular articles from Wired.com!
 
-Created using TextRank
+Created using TextRank (note forked version contains faster levenshtein distance calculation; or else program crippled)
 
 __Note: WIRED subscriptions will impact this program's ability to function well!__
 
